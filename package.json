@@ -1,0 +1,19 @@
+{
+    "name": "create-perfree-plugin-ui",
+    "version": "1.2.0",
+    "description": "快速创建Perfree插件ui模板",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "create-perfree-plugin-ui": "./index.js"
+    },
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "fs-extra": "^10.1.0",
+        "inquirer": "^9.3.7"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/inquirer": "^9.0.7"
+    }
+}
